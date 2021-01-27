@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #444;
+    font-family:'Mulish', sans-serif; ;
+    padding: 50px;
+    background: linear-gradient(to bottom right,#52BE80 , #E67E22 );
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.food{
+    max-width: 850px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 30px 80px 10px rgba(0,0,0,0.2);
+    display: flex;
+    align-items: stretch;
+}
+.food-hero{
+    flex: 0 0 45% ;
+}
+.food-img{
+    width: 100%;
+    display: block;
+}
+.food-content{
+    flex: 1;
+    background-color: white;
+    padding: 30px 25px;
+    display: flex;
+    flex-direction: column;
+}
+.food-title{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.heading{
+    font-size: 20px;
+    margin-right: auto;
+}
+.food-tag{
+    font-size: 10px;
+    text-transform: uppercase;
+    color: white;
+    padding: 2px 7px;
+    margin-left: 7px;
+    border-radius: 100px;
+}
+.food-tag--1{
+    background-color:#52BE80 ;
+}
+.food-tag--2{
+    background-color: #E67E22;
+}
+.description{
+    font-size: 18px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+}
+.detail{
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-right: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.emoji{
+    font-size: 20px;
+    margin-right: 3px;
+}
+.price{
+    flex: 0 0 50px;
+    background:linear-gradient( to bottom,#52BE80, #E67E22);
+    writing-mode: vertical-rl;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
