@@ -1,3 +1,3 @@
 # Food
 
-The Second testing project.
+To execute this open the  Burger.html file in the browser.
